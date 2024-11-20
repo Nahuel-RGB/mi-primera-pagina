@@ -1,0 +1,53 @@
+body {
+    background-color: #e0f7fa; /* Fondo azul claro */
+    font-family: Arial, sans-serif; /* Fuente general */
+    text-align: center; /* Centrar texto */
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px; /* Ancho máximo del contenedor */
+}
+
+h1 {
+    color: #00796b; /* Color del título */
+}
+
+p {
+    margin: 15px 0; /* Margen alrededor del párrafo */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px); /* Ancho completo menos padding */
+    border: 2px solid #00796b; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    background-color: #00796b; /* Fondo verde */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #004d40; /* Color más oscuro al pasar el mouse */
+}
+
+.mensaje {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.oculto {
+    display: none; /* Oculta el mensaje por defecto */
+}
